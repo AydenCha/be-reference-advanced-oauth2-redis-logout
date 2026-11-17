@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @EnableJpaAuditing
 @SpringBootApplication
-public class Section4Week1SpringSecurityOauth2BasicApplication {
+public class AdvancedOauth2RedisLogoutApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Section4Week1SpringSecurityOauth2BasicApplication.class, args);
+		SpringApplication.run(AdvancedOauth2RedisLogoutApplication.class, args);
 	}
 
 }
